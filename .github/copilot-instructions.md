@@ -21,7 +21,7 @@ Students complete these steps in order (files live in `steps/`):
 
 The `README.md` has the overview and a short git glossary. The core exercise (Steps 5–6) is to create `exercises/about-me.md` — it must contain a `## About Me` heading and at least a few lines about the student. `exercises/about-me-template.md` is the starting template.
 
-The Step 8 bonus centers on `index.html` in the repo root — a starter web page students edit and deploy. For this step they work directly on the `main` branch of their own fork (GitHub Pages publishes from `main`), and there is no automated check — it is meant for creative experimentation.
+The Step 8 bonus centers on `index.html` in the repo root — a starter web page students edit and deploy. For this step they work directly on the `main` branch of their own fork (GitHub Pages publishes from `main`), and there is no automated check — it is meant for creative experimentation. The page already loads **Tailwind CSS** (utility classes), **Font Awesome** (icons), **Google Fonts** (Poppins), and **Alpine.js** (simple interactivity) via CDN — prefer these tools when suggesting changes, since they are already available and need no setup.
 
 ## How to help
 

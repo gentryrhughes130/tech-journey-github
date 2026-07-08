@@ -23,9 +23,22 @@ This is where you get to play. Use **Copilot** as much as you can.
 https://YOUR-USERNAME.github.io/tech-journey-github/
 ```
 
-Your repo already contains a starter page: the **`index.html`** file in the main folder. `index.html` is the special name browsers look for — it is the "front door" of any website. Right now it is a plain template. By the end of this step it will be *your* page, live online.
+Your repo already contains a starter page: the **`index.html`** file in the main folder. `index.html` is the special name browsers look for — it is the "front door" of any website. Right now it is a starter template. By the end of this step it will be *your* page, live online.
 
 > **🤖 Ask Copilot:** Open Copilot Chat and ask: *"What is an HTML file and what does the `index.html` file do on a website?"*
+
+### Your page comes with a toolkit
+
+To help you build cool things fast, your `index.html` already loads four popular web tools. You do **not** need to learn them — just know they are there, because **Copilot knows all of them** and can use them when you ask.
+
+| Tool | What it gives you |
+|------|-------------------|
+| **Tailwind CSS** | Style anything by adding short `class` names (colors, spacing, shadows) — no separate stylesheet needed |
+| **Font Awesome** | Thousands of icons, like `<i class="fa-solid fa-heart"></i>` |
+| **Google Fonts** | A nice font (Poppins) already applied to the whole page |
+| **Alpine.js** | Simple interactivity — buttons that count, toggles, show/hide — with just a little markup |
+
+The starter page already uses all four (look at the "Wave at me" button near the bottom — that is Alpine.js and Font Awesome working together). When you ask Copilot for changes, it will reach for these automatically.
 
 ---
 
@@ -65,13 +78,14 @@ Look for the section marked `▼▼▼ START EDITING HERE ▼▼▼` and make it
 - Replace **[Your Name]** with your actual name.
 - Rewrite the **About Me** paragraph.
 - Change the **Things I'm Into** list to your real interests.
-- Change the colors! The `background` line near the top of the `<style>` section controls the page's color.
+- Change the colors! On the `<body>` tag, the `from-indigo-500 to-purple-600` classes control the background gradient — swap in other colors (try `from-pink-500 to-orange-400`).
 
-> **🤖 Ask Copilot — this is the whole point of this step.** Try asking Chat for real changes and see what it suggests:
-> - *"Change the background of my page to a sunset gradient."*
-> - *"Add a section to my page for my favorite movies as a bulleted list."*
-> - *"Add a button that says 'Say Hi' and shows an alert when clicked."*
-> - *"Make the heading font bigger and add a shadow behind the card."*
+> **🤖 Ask Copilot — this is the whole point of this step.** Your page has Tailwind, icons, and Alpine.js ready to go, so Copilot can do a lot. Try asking Chat for real changes:
+> - *"Change my background to a sunset gradient."*
+> - *"Add a 'My Projects' section with three cards, each with an icon."*
+> - *"Add a button that toggles the page between light and dark mode using Alpine.js."*
+> - *"Give my heading a fun animated hover effect."*
+> - *"Add Font Awesome icons next to each of my interests."*
 >
 > Accept the parts you like, tweak them, and keep experimenting. This is exactly how developers use Copilot to build real things.
 
