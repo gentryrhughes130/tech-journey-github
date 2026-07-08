@@ -1,7 +1,7 @@
 # Step 6: Open a Pull Request
 
 **Previous step:** [Step 5 - Commit Your Changes](05-commit.md)
-**Next step:** You are done — your instructor will review your Pull Request!
+**Next step:** You are done with the core course! Optional bonus: [Step 7 - Launch a Codespace](07-codespace.md) and use AI with Copilot.
 
 ---
 
@@ -75,6 +75,8 @@ Check the **Checks** section at the bottom of your PR page to see the result.
 4. Your `about-me.md` file becomes part of the `main` branch.
 
 **Congratulations — you have completed the Tech Journey Git curriculum!**
+
+> **Want to keep going?** The bonus module shows you how to launch a full cloud development environment and use **GitHub Copilot**, an AI coding assistant — both free. Start with [Step 7 - Launch a Codespace](07-codespace.md).
 
 ---
 

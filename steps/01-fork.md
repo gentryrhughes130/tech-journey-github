@@ -1,7 +1,7 @@
 # Step 1: Fork the Repository
 
 **Previous step:** None — this is the beginning!
-**Next step:** [Step 2 - Clone Locally](02-clone.md)
+**Next step:** [Step 2 - Open the Editor](02-open-editor.md)
 
 ---
 
@@ -61,4 +61,4 @@ There is no GitHub Actions check for this step — the proof is simply that you 
 
 ---
 
-**You completed Step 1!** Head to [Step 2 - Clone Locally](02-clone.md).
+**You completed Step 1!** Head to [Step 2 - Open the Editor](02-open-editor.md).

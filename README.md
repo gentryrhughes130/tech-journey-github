@@ -40,6 +40,17 @@ Git is used by every professional software developer in the world. In this curri
 
 **Start here: [Step 1 - Fork the Repo](steps/01-fork.md)**
 
+### Bonus: Develop with AI
+
+Once you finish the core steps, keep going with the bonus module. You will spin up a full cloud development environment and use **GitHub Copilot**, an AI coding assistant — both free.
+
+| Step | Topic | What You Will Do |
+|------|-------|-----------------|
+| [Step 7](steps/07-codespace.md) | Launch a Codespace | Open a full cloud computer in your browser |
+| [Step 8](steps/08-copilot.md) | Code with GitHub Copilot | Use an AI assistant to write and understand code |
+
+> **Why a Codespace?** The browser editor (github.dev) is great for editing, but it cannot run code or use Copilot. A **Codespace** is a full development environment in the cloud — and it is what lets you use **Copilot for free**.
+
 ---
 
 ## How Validation Works
@@ -67,6 +78,8 @@ These are the core git concepts you will learn:
 | Commit | A labeled snapshot saved in git's history |
 | Push | Sending your commits to GitHub |
 | Pull Request | A request to merge your branch into `main` |
+| Codespace | A full development environment that runs in the cloud (bonus) |
+| Copilot | An AI assistant that suggests and explains code (bonus) |
 
 **Optional: CLI commands (for the curious)**
 
