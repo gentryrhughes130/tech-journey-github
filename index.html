@@ -103,9 +103,9 @@
         x-data gives this box a tiny bit of "memory" (waves),
         @click runs code when clicked, and x-text shows a value.
       -->
-      <div x-data="{ waves: 0 }" class="mt-8">
+      <div x-data="{ clicks: 0, waves: 1, init() { let count = 0; const interval = setInterval(() => { this.clicks++; this.waves = Math.pow(2, this.clicks); count++; if (count >= 5) clearInterval(interval); }, 300); } }" class="mt-8">
         <button
-          @click="waves++"
+          @click="clicks++; waves = Math.pow(2, clicks)"
           class="bg-purple-800 hover:bg-purple-900 text-white font-semibold px-5 py-2 rounded-lg shadow transition"
         >
           <i class="fa-solid fa-hand"></i> Wave at me
